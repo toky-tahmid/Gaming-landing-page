@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+}
+
+.game-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.game-logo img {
+    width: 100%;
+    height: 60%;
+    margin-right: 20px;
+}
+
+.game-logo h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.nav-items {
+    width: 30%;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.follow-us {
+    padding: 15px;
+    padding-right: 5px;
+    border-radius: 8px;
+    align-items: center;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.follow-us a {
+    margin-right: 8px;
+}
+
+.follow-us img {
+    width: 20px;
+}
+
+#img-1 {
+    margin-right: 7px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    align-items: center;
+}
+
+.banner-container{
+    background-image: url(../images/Group\ 14.png);
+
+    align-items: center;
+    height: 100vh;
+    
+    background-blend-mode: overlay;
+    
+   
+    background-size: cover;
+    text-align: center;
+}
+.banner-info {
+
+   
+   
+
+
+
+}
+
+.banner-info img {}
