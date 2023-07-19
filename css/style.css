@@ -2,12 +2,16 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    
 }
 
-body {
+html,body {
     font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .nav-container {
@@ -76,25 +80,191 @@ body {
     align-items: center;
 }
 
-.banner-container{
-    background-image: url(../images/Group\ 14.png);
-
+.banner-container {
+    margin-top: 10px;
+    display: flex;
     align-items: center;
-    height: 100vh;
-    
-    background-blend-mode: overlay;
-    
-   
-    background-size: cover;
+    justify-content: space-evenly;
+
+
+
+
+}
+
+.banner-info h2 {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.banner-info h1 {
+    font-size: 60px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
 }
-.banner-info {
 
-   
-   
+.banner-info li {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.banner-img img {
+    width: 600px;
+    height: 500px;
+}
+
+.sign {
+    background-color: #FF42A5;
+    padding: 15px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+}
+
+.go {
+    background-color: #4EC5F7;
+    padding: 15px;
+    border-radius: 18px;
+    border: none;
+}
+
+/* main part starts here */
+.card-main-part {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mid-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.main-disc {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.cards-presentation {
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+
+
+}
+
+.cards {
+    width: 150px;
+    height: 200px;
+
+
 
 
 
 }
 
-.banner-info img {}
+.icon {
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+
+}
+
+.icons para {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+
+
+
+
+}
+
+.game-display {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    max-width: 1200px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.game-info {
+    text-align: center;
+}
+
+.game-info h2 {
+
+    font-size: 42px;
+    font-weight: 700;
+
+}
+
+.game-info p {
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+
+.game-photo {
+    position: relative;
+
+}
+
+.game-photo img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.angela {
+
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+.footer-main{
+    width: 2100px;
+height: 300px;
+
+background: #0B0223;
+}
