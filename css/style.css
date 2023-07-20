@@ -209,6 +209,7 @@ body {
     font-weight: 700;
 
 }
+
 .game-info p {
     font-size: 18px;
     font-weight: 400;
@@ -223,6 +224,7 @@ body {
     display: block;
     margin: 0 auto;
 }
+
 .angela {
 
     width: 200px;
@@ -234,79 +236,89 @@ body {
     position: absolute;
     bottom: 0;
 }
-.grid-container {
-    margin-top: 30px;
-    display: grid;
-    max-width: 1400px;
-    min-height: 10px;
+
+ .grid-container {
+    display: grid;   
+    min-height: 30px;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
-    margin-left: 50px;
-}
+    margin-left: 50px; 
+    
+ } 
 .game-logos {
     height: 90px;
-
     background-color: white;
-    padding: 5px;
-    border-radius: 14px;
+margin-top: 30px;
     border: none;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .game-logos:hover {
     border: 1px solid #FF42A5;
+    
 }
 .game-logos img {
-    width: 40px;
+    width: 30px;
     margin-left: 100px;
 }
 .text {
     color: black;
-    margin-left: 20px;
+    margin-left: 4px;
+    font-size: large;
 }
 .text:hover {
-    color: #FF42A5;
+
+    color: #FF42A5; 
+ } 
+
+   
+
+
+/* footer section */
+.footer-container {
+    height: 300px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    background: #0B0223;
+    height: auto;
+    align-items: center;
 }
 
 .footer-main {
+    padding: 90px;
+    margin-left: -100px;
     margin-top: 100px;
-    width: 1400px;
-    height: 600px;
-    color: white;
-    background: #0B0223;
+    padding-bottom: 0;
+}
 
-}
-.footer-logo {
-    text-align: center;
-    padding: 60px;
-    margin-top: 100px;
-}
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
-    font-weight: 500;
-}
-.footer-icons {
-    display: flex;
-    margin-left: 400px;
-    margin-top: 50px;
-    cursor: pointer;
-}
-.footer-last-content {
-
+.list-items ul {
     display: flex;
     justify-content: space-evenly;
-    margin-top: -120px;
-    margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    cursor: pointer;
 }
+
+ul {
+    list-style: none;
+}
+
+.icon-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin-left: 120px;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
 .footer-copy {
     color: rgba(255, 255, 255, 0.40);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
-    margin-left: 500px;
 }
